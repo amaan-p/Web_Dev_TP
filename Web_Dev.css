@@ -13,3 +13,19 @@ body{
 .imglink{
    text-align: center; 
 }
+
+article>div>a:link,a:visited{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    width:400px;
+    margin-bottom: 10px;
+}
+article>div>a:hover{
+    background-color: purple;
+    color: white;
+}
+article>div>a:active{
+    background-color: pink;
+    color: white;
+}
