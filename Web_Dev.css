@@ -1,31 +1,57 @@
-h1{
-    color:rgb(3, 61, 128);
-    text-align: center;
+h1 {
+  color: rgb(3, 61, 128);
+  text-align: center;
 }
-h2{
-    color:rgb(3, 61, 128);
-    
+h2 {
+  color: rgb(3, 61, 128);
 }
-body{
-    color: rgb(105, 11, 66);
-    background-image:url("C:\\Users\\Hp\\Downloads\\sa1.jpg");
+body {
+  color: rgb(105, 11, 66);
+  background: url("C:\\Users\\Hp\\Downloads\\sa1.jpg");
+  font-family: Helvetica, Times, sans-serif;
+  box-sizing: border-box;
 }
-.imglink{
-   text-align: center; 
+.imglink {
+  text-align: center;
 }
-
-article>div>a:link,a:visited{
-    text-decoration: none;
-    background-color: beige;
-    color: black;
-    width:400px;
-    margin-bottom: 10px;
+.gtrname {
+  font-style: italic;
+  font-weight: bold;
 }
-article>div>a:hover{
-    background-color: purple;
-    color: white;
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  clear: both;
+  color: rgb(105, 11, 66);
 }
-article>div>a:active{
-    background-color: pink;
-    color: white;
+#col1 {
+  width: 35%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+#col2 {
+  width: 35%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+#footlink {
+  text-decoration: none;
+}
+article > div > a:link,
+a:visited {
+  text-decoration: none;
+  background-color: beige;
+  color: black;
+  width: 400px;
+  margin-bottom: 10px;
+}
+article > div > a:hover {
+  background-color: purple;
+  color: white;
+}
+article > div > a:active {
+  background-color: pink;
+  color: white;
 }
